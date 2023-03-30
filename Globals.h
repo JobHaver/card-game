@@ -11,4 +11,4 @@ int CARD_VALUES_LOW = 5;
 
 int ACTION_POINTS_AVALIBLE = 4;
 
-#endif GLOBALS_H_
+#endif

@@ -11,11 +11,10 @@ tableState* challengeGenerator(vector<tableState*>& endStates, tableState* start
 string forCollin(tableState start, tableState end);
 
 int main() {
-
 	table tableSetup = table();
-
+	
 	tableState* startState = tableSetup.setTable();
-
+	
 	vector<tableState*> vecEndStates = endStates(startState);
 
 	tableState* end = challengeGenerator(vecEndStates, startState);
@@ -23,8 +22,6 @@ int main() {
 	string temp = forCollin(*startState, *end);
 
 	cout << temp;
-
-	cout << "are you winning son?";
 	
 	return 0;
 }
@@ -76,9 +73,6 @@ vector<tableState*> endStates(tableState* startState) {
 								}
 							}
 						}
-						else {
-
-						}
 					}
 				}
 				else {
@@ -100,9 +94,6 @@ vector<tableState*> endStates(tableState* startState) {
 
 							statesToExplore.push(child);
 						}
-					}
-					else {
-
 					}
 				}
 			}

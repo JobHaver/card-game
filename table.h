@@ -79,4 +79,4 @@ public:
 	}
 };
 
-#endif TABLE_H_
+#endif

@@ -42,4 +42,4 @@ public:
 	}
 };
 
-#endif DECK_H_
+#endif

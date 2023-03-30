@@ -36,4 +36,4 @@ int divNum(int i, int num) { return i / num; }
 int modNum(int i, int num) { return i % num; }
 int meanNum(int i, int num) { return (i + num) / 2; }
 
-#endif CARDS_H_
+#endif
